@@ -1,58 +1,63 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #pink;
-    color: #333;
-}
 
-header {
-    background: #333;
-    color: #blue;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-section h2 {
-    color: #333;
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-}
-
-footer {
-    text-align: center;
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literatura Universală</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Literatura Universală</h1>
+        <p>Bun venit! Descoperă autorii, operele și istoria literaturii universale.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Autori Importanți</h2>
+            <ul class="list-with-images">
+                <li>
+                    <img src="images/shakespeare.jpg" alt="William Shakespeare">
+                    <p>William Shakespeare</p>
+                </li>
+                <li>
+                    <img src="images/tolstoi.jpg" alt="Lev Tolstoi">
+                    <p>Lev Tolstoi</p>
+                </li>
+                <li>
+                    <img src="images/kafka.jpg" alt="Franz Kafka">
+                    <p>Franz Kafka</p>
+                </li>
+                <li>
+                    <img src="images/marquez.jpg" alt="Gabriel García Márquez">
+                    <p>Gabriel García Márquez</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Opere Celebre</h2>
+            <ul class="list-with-images">
+                <li>
+                    <img src="images/hamlet.jpg" alt="Hamlet">
+                    <p>Hamlet - William Shakespeare</p>
+                </li>
+                <li>
+                    <img src="images/razboi_pace.jpg" alt="Război și pace">
+                    <p>Război și pace - Lev Tolstoi</p>
+                </li>
+                <li>
+                    <img src="images/metamorfoza.jpg" alt="Metamorfoza">
+                    <p>Metamorfoza - Franz Kafka</p>
+                </li>
+                <li>
+                    <img src="images/un_veac.jpg" alt="Un veac de singurătate">
+                    <p>Un veac de singurătate - Gabriel García Márquez</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Literatura Universală. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
